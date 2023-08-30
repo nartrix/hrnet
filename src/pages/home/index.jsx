@@ -54,7 +54,7 @@ function Home() {
       >
         <h1>HRnet</h1>
         <div>
-          <Link to={`/employees-table`}>View Current Employees</Link>
+          <Link to="/employee-list">View Current Employees</Link>
         </div>
         <h2>Create Employee</h2>
         <form onSubmit={submitForm} className="form">
